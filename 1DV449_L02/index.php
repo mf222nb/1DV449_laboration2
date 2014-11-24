@@ -1,3 +1,10 @@
+<?php
+require_once('sec.php');
+sec_session_start();
+if(isset($_SESSION['username']) && isset($_SESSION['login_string'])){
+    session_destroy();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

@@ -7,6 +7,7 @@
 2. Man kan logga in med vilka värden som helst.
 3. Man kan få tillgång till applikationen genom att bara skriva mess.php i urlen.
 4. Värdena läggs in direkt i SQL - frågan som parametrar vilket resulterar i att man är sårbar för SQL - injektions.
+5. Lösenorden sparas i databasen i klartext.
 
 ###Skriva meddelanden
 1. Både namnfältet och meddelandefältet tar emot taggar och whitespaces.
@@ -23,6 +24,7 @@ det inte finns något resultat och true om det finns.
 kommer man tillbaka till inoggnings - sidan annars får man tillgång till applikationen.
 4. Jag paramatiserade SQL frågan i isUser till att ta emot frågetecken som värde sedan när man hämtade resultatet med de inmatade värdena
 så la jag till false om det inte fanns någon användare med det username och password annars så loggas man in.
+5. Det jag gjorde för att lösa detta var att jag gjorde en password_hash för att hasha och kryptera lösenordet i databasen.
 
 ###Skriva meddelanden
 1. För att ta bort taggar och whitespaces använder jag strip_tags och trim för att ta bort både taggar och whitespaces.
@@ -38,4 +40,6 @@ användare kan.
 1. När man kan skriva in javascript oc sql - injektions så kan en ond användare länka till andra sidor från din sida och hämta ut cookies
 och sådant.
 2. Kan man undgå att logga in så skulle hela applikationen bli en öppen chatt och då har man tappat hela iden med att ha en login.
+3. När man har lösenord i klartext i databasen så om databsen skulle läcka ut så skulle någon få alla användare och deras lösenord och
+kunna logga in med vilken som och ange sig att vara den personen.
 

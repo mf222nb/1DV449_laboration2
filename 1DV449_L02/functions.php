@@ -2,7 +2,7 @@
 require_once("get.php");
 require_once("post.php");
 require_once("sec.php");
-sec_session_start();
+//sec_session_start();
 
 /*
 * It's here all the ajax calls goes
@@ -16,9 +16,13 @@ if(isset($_GET['function'])) {
 	    $name = trim(strip_tags($_GET["name"]));
 		$message = trim(strip_tags($_GET["message"]));
         addToDB($message, $name);
-		header("Location: test/debug.php");
+		//header("Location: test/debug.php");
     }
     elseif($_GET['function'] == 'getMessages') {
-  	   	echo(json_encode(getMessages()));
+        $arrayLength = $_GET['arrayLength'];
+  	   	echo(json_encode(getMessages($arrayLength)));
+    }
+    elseif($_GET['function'] == 'getFirstMessages') {
+        echo(json_encode(getFirstMessages()));
     }
 }

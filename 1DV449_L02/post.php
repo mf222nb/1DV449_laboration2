@@ -5,7 +5,9 @@
 */
 function addToDB($message, $user) {
 	$db = null;
-	if(empty($message) || empty($user)){
+    $time = time();
+
+    if(empty($message) || empty($user)){
         return false;
     }
 	try {
@@ -16,8 +18,8 @@ function addToDB($message, $user) {
 		die("Something went wrong -> " .$e->getMessage());
 	}
 	
-	$q = "INSERT INTO messages (message, name) VALUES(?, ?)";
-    $params = array($message, $user);
+	$q = "INSERT INTO messages (message, name, time) VALUES(?, ?, ?)";
+    $params = array($message, $user, $time);
 	
 	try {
         $stm = $db->prepare($q);
@@ -31,8 +33,7 @@ function addToDB($message, $user) {
 	
 	$q = "SELECT * FROM users WHERE username = ?";
     $params = array($user);
-	$result;
-	$stm;
+
 	try {
 		$stm = $db->prepare($q);
 		$stm->execute($params);

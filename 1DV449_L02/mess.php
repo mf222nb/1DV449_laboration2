@@ -2,6 +2,10 @@
 	require_once("get.php");
     require_once("sec.php");
     sec_session_start();
+
+    if(!isset($_SESSION['username']) && !isset($_SESSION['login_string'])){
+        header("Location: index.php");
+    }
 ?>
 <!DOCTYPE html>
 <html lang="sv">
@@ -161,14 +165,10 @@ background-color: #F3FCE4;
             </div>
 
         </div>
-        <?php
-            if(!isset($_SESSION['username'])){
-                header("Location: index.php");
-            }
-        ?>
         <!-- This script is running to get the messages -->
 			<script>
 				$(document).ready(function() {
+                    MessageBoard.getFirstMessages();
 					MessageBoard.getMessages();
 				});
 			</script>

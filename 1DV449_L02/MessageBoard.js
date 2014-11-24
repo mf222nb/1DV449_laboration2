@@ -6,38 +6,63 @@ var MessageBoard = {
 
     init:function(e)
     {
-	
-		    MessageBoard.textField = document.getElementById("inputText");
-		    MessageBoard.nameField = document.getElementById("inputName");
-            MessageBoard.messageArea = document.getElementById("messagearea");
-    
-            // Add eventhandlers    
-            document.getElementById("inputText").onfocus = function(e){ this.className = "focus"; }
-            document.getElementById("inputText").onblur = function(e){ this.className = "blur" }
-            document.getElementById("buttonSend").onclick = function(e) {MessageBoard.sendMessage(); return false;}
-            document.getElementById("buttonLogout").onclick = function(e) {MessageBoard.logout(); return false;}
-    
-            MessageBoard.textField.onkeypress = function(e){ 
-                                                    if(!e) var e = window.event;
-                                                    
-                                                    if(e.keyCode == 13 && !e.shiftKey){
-                                                        MessageBoard.sendMessage(); 
-                                                       
-                                                        return false;
-                                                    }
+        MessageBoard.textField = document.getElementById("inputText");
+        MessageBoard.nameField = document.getElementById("inputName");
+        MessageBoard.messageArea = document.getElementById("messagearea");
+
+        // Add eventhandlers
+        document.getElementById("inputText").onfocus = function(e){ this.className = "focus"; }
+        document.getElementById("inputText").onblur = function(e){ this.className = "blur" }
+        document.getElementById("buttonSend").onclick = function(e) {MessageBoard.sendMessage(); return false;}
+        document.getElementById("buttonLogout").onclick = function(e) {MessageBoard.logout(); return false;}
+
+        MessageBoard.textField.onkeypress = function(e){
+                                                if(!e) var e = window.event;
+
+                                                if(e.keyCode == 13 && !e.shiftKey){
+                                                    MessageBoard.sendMessage();
+
+                                                    return false;
                                                 }
-    
+                                            }
     },
-    getMessages:function() {
+    getMessages:function(){
+        (function poll() {
+            setTimeout(function () {
+                console.log("call");
+                $.ajax({
+                    type: 'GET',
+                    url: 'functions.php',
+                    data: {function: "getMessages", arrayLength: MessageBoard.messages.length},
+                    success: function (data) {
+                        data = JSON.parse(data);
+
+
+                        for(var mess in data) {
+                            var obj = data[mess];
+                            var text = obj.name +" said:\n" +obj.message;
+                            var message = new Message(text, new Date());
+                            var messageID = MessageBoard.messages.push(message)-1;
+
+                            MessageBoard.renderMessage(messageID);
+
+                        }
+                        document.getElementById("nrOfMessages").innerHTML = MessageBoard.messages.length;
+                    },
+                    complete: poll
+                });
+            }, 1000);
+        })();
+    },
+    getFirstMessages:function() {
         console.log("INNE");
         $.ajax({
 			type: "GET",
 			url: "functions.php",
-			data: {function: "getMessages"}
+			data: {function: "getFirstMessages"}
 		}).done(function(data) { // called when the AJAX call is ready
 						
 			data = JSON.parse(data);
-		
 			
 			for(var mess in data) {
 				var obj = data[mess];
@@ -51,7 +76,7 @@ var MessageBoard = {
 			document.getElementById("nrOfMessages").innerHTML = MessageBoard.messages.length;
 			
 		});
-	
+
 
     },
     sendMessage:function(){
@@ -64,7 +89,7 @@ var MessageBoard = {
 		  	url: "functions.php",
 		  	data: {function: "add", name: MessageBoard.nameField.value, message:MessageBoard.textField.value}
 		}).done(function(data) {
-		  alert("Your message is saved! Reload the page for watching it");
+		  //("Your message is saved! Reload the page for watching it");
 		});
     
     },
@@ -115,7 +140,7 @@ var MessageBoard = {
 
         div.appendChild(spanClear);        
         
-        MessageBoard.messageArea.appendChild(div);       
+        MessageBoard.messageArea.insertBefore(div, MessageBoard.messageArea.firstChild);
     },
     removeMessage: function(messageID){
 		if(window.confirm("Vill du verkligen radera meddelandet?")){
