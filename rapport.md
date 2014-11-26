@@ -102,7 +102,13 @@ långsammare och det blir 120kb mer att ladda in.
 Longpollingen är gjord som så att jag har en oändlig loop i MessageBoard.js som kallar på sig själv varje sekund, för om jag inte hade
 någon timout på den så skickade den request hela tiden och då så buggade själva longpollingen ur och ibland fick man ut ett meddelande
 och ibland inte. Sedan i get.php så har jag en while loop som lever i 20 sekunder och om den hittar någon förändring i databasen så
-kommer man ur loopen och det som fanns i databasen skrivs ut, annars kör den bara om loopen ända till en förändring sker.
+kommer man ur loopen och det som fanns i databasen skrivs ut, annars kör den bara om loopen ända till en förändring sker.<br/>
+
+Nackdelen med long polling är att man hela tiden håller en anslutning öppen och då kan jag tänka mig att det tar en del resurser att
+göra så.<br/>
+
+Fördelen med denna implementation är att man kan göra en realtidskonversation och slipper att uppdatera sidan när någon har skrivit ett
+meddelande.
 
 ###Optimering long polling
 Optimeringen jag har gjort är att jag bara kör en sql fråga istället för som jag hade innan, då hade jag 2 stycken sql frågor och då borde det
