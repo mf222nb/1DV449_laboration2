@@ -15,26 +15,6 @@ function sec_session_start() {
         session_regenerate_id(); // regenerated the session, delete the old one.
 }
 
-function checkUser() {
-	if(!session_id()) {
-		sec_session_start();
-	}
-
-	if(!isset($_SESSION["user"])) {header('HTTP/1.1 401 Unauthorized'); die();}
-
-	$user = getUser($_SESSION["user"]);
-	$un = $user[0]["username"];
-
-	if(isset($_SESSION['login_string'])) {
-		if($_SESSION['login_string'] !== hash('sha512', "123456" . $un) ) {
-			header('HTTP/1.1 401 Unauthorized'); die();
-		}
-	}
-	else {
-		header('HTTP/1.1 401 Unauthorized'); die();
-	}
-	return true;
-}
 
 function isUser($u, $p) {
 	$db = null;

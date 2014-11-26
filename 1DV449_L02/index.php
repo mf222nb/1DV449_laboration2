@@ -18,53 +18,9 @@ if(isset($_SESSION['username']) && isset($_SESSION['login_string'])){
     <title>Mezzy Labbage - Logga in</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-		<script src="js/bootstrap.js"></script>
-		
-    <!-- Custom styles for this template -->
-    <style>
-	body {
-	  padding-top: 40px;
-	  padding-bottom: 40px;
-	  background-color: #eee;
-	}
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-	.form-signin {
-	  max-width: 330px;
-	  padding: 15px;
-	  margin: 0 auto;
-	}
-	.form-signin .form-signin-heading,
-	.form-signin .checkbox {
-	  margin-bottom: 10px;
-	}
-	.form-signin .checkbox {
-	  font-weight: normal;
-	}
-	.form-signin .form-control {
-	  position: relative;
-	  font-size: 16px;
-	  height: auto;
-	  padding: 10px;
-	  -webkit-box-sizing: border-box;
-	     -moz-box-sizing: border-box;
-	          box-sizing: border-box;
-	}
-	.form-signin .form-control:focus {
-	  z-index: 2;
-	}
-	.form-signin input[type="text"] {
-	  margin-bottom: -1px;
-	  border-bottom-left-radius: 0;
-	  border-bottom-right-radius: 0;
-	}
-	.form-signin input[type="password"] {
-	  margin-bottom: 10px;
-	  border-top-left-radius: 0;
-	  border-top-right-radius: 0;
-	}
-
-	</style>
 
   </head>
 
@@ -79,6 +35,7 @@ if(isset($_SESSION['username']) && isset($_SESSION['login_string'])){
         <button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
       </form>
     </div> <!-- /container -->
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
 

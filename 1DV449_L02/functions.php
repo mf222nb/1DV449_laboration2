@@ -2,7 +2,6 @@
 require_once("get.php");
 require_once("post.php");
 require_once("sec.php");
-//sec_session_start();
 
 /*
 * It's here all the ajax calls goes
@@ -15,8 +14,18 @@ if(isset($_GET['function'])) {
     elseif($_GET['function'] == 'add') {
 	    $name = trim(strip_tags($_GET["name"]));
 		$message = trim(strip_tags($_GET["message"]));
-        addToDB($message, $name);
-		//header("Location: test/debug.php");
+
+        sec_session_start();
+
+        $token = $_GET['token'];
+
+        if($_SESSION['token'] === $token){
+            addToDB($message, $name);
+        }
+        else{
+            header("Location: mess.php");
+        }
+        session_write_close();
     }
     elseif($_GET['function'] == 'getMessages') {
         $arrayLength = $_GET['arrayLength'];

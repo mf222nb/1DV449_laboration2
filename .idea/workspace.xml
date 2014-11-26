@@ -26,20 +26,28 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1DV449_L02/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="21" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="1530">
+            <state line="20" column="56" selection-start="617" selection-end="617" vertical-scroll-proportion="-12.230769" vertical-offset="22" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1DV449_L02/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="30" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2618">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1DV449_L02/get.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="136" selection-end="136" vertical-scroll-proportion="-0.2357019" vertical-offset="255" max-vertical-offset="1343">
+            <state line="27" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="-15.5" vertical-offset="56" max-vertical-offset="1105">
               <folding>
-                <marker date="1416848672854" expanded="true" signature="393:415" placeholder="SELECT * FRO..messages..." />
-                <marker date="1416848672854" expanded="true" signature="593:642" placeholder="SELECT * FRO..messages..." />
-                <marker date="1416848672854" expanded="true" signature="1462:1484" placeholder="SELECT * FRO..messages..." />
+                <marker date="1416998351337" expanded="true" signature="393:434" placeholder="SELECT * FRO..messages..." />
+                <marker date="1416998351337" expanded="true" signature="997:1019" placeholder="SELECT * FRO..messages..." />
               </folding>
             </state>
           </provider>
@@ -57,13 +65,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rapport.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="rapport.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rapport.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="65" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="867">
+            <state line="111" column="92" selection-start="7352" selection-end="7352" vertical-scroll-proportion="1.09375" vertical-offset="1292" max-vertical-offset="1989">
               <folding />
             </state>
           </provider>
@@ -72,7 +80,7 @@
       <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1DV449_L02/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="41" selection-start="586" selection-end="586" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="561">
+            <state line="21" column="40" selection-start="454" selection-end="454" vertical-scroll-proportion="-11.769231" vertical-offset="51" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -81,11 +89,11 @@
       <file leaf-file-name="sec.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1DV449_L02/sec.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="23" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-13.692307" vertical-offset="358" max-vertical-offset="1904">
+            <state line="16" column="0" selection-start="800" selection-end="800" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1564">
               <folding>
-                <marker date="1416490885713" expanded="true" signature="1511:1549" placeholder="SELECT * FRO..users..." />
-                <marker date="1416490885713" expanded="true" signature="1517:1549" placeholder="UPDATE passw..." />
-                <marker date="1416490885713" expanded="true" signature="2119:2157" placeholder="SELECT * FRO..users..." />
+                <marker date="1417015428436" expanded="true" signature="1058:1096" placeholder="SELECT * FRO..users..." />
+                <marker date="1417015428436" expanded="true" signature="1064:1096" placeholder="UPDATE passw..." />
+                <marker date="1417015428436" expanded="true" signature="1666:1704" placeholder="SELECT * FRO..users..." />
               </folding>
             </state>
           </provider>
@@ -94,7 +102,7 @@
       <file leaf-file-name="check.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1DV449_L02/check.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="442">
+            <state line="14" column="32" selection-start="379" selection-end="379" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -103,7 +111,7 @@
       <file leaf-file-name="MessageBoard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1DV449_L02/MessageBoard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="27" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2907">
+            <state line="164" column="27" selection-start="5676" selection-end="5676" vertical-scroll-proportion="0.0" vertical-offset="1887" max-vertical-offset="2958">
               <folding />
             </state>
           </provider>
@@ -112,8 +120,10 @@
       <file leaf-file-name="mess.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1DV449_L02/mess.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="0" selection-start="3575" selection-end="3575" vertical-scroll-proportion="-11.076923" vertical-offset="2517" max-vertical-offset="3094">
-              <folding />
+            <state line="53" column="12" selection-start="2100" selection-end="2100" vertical-scroll-proportion="-14.192307" vertical-offset="532" max-vertical-offset="1088">
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,14 +142,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/1DV449_L02/check.php" />
+        <option value="$PROJECT_DIR$/1DV449_L02/post.php" />
+        <option value="$PROJECT_DIR$/1DV449_L02/css/style.css" />
+        <option value="$PROJECT_DIR$/1DV449_L02/functions.php" />
+        <option value="$PROJECT_DIR$/1DV449_L02/get.php" />
+        <option value="$PROJECT_DIR$/1DV449_L02/mess.php" />
+        <option value="$PROJECT_DIR$/1DV449_L02/js/MessageBoard.js" />
+        <option value="$PROJECT_DIR$/1DV449_L02/MessageBoard.js" />
         <option value="$PROJECT_DIR$/rapport.md" />
         <option value="$PROJECT_DIR$/1DV449_L02/index.php" />
         <option value="$PROJECT_DIR$/1DV449_L02/sec.php" />
-        <option value="$PROJECT_DIR$/1DV449_L02/post.php" />
-        <option value="$PROJECT_DIR$/1DV449_L02/mess.php" />
-        <option value="$PROJECT_DIR$/1DV449_L02/functions.php" />
-        <option value="$PROJECT_DIR$/1DV449_L02/get.php" />
-        <option value="$PROJECT_DIR$/1DV449_L02/MessageBoard.js" />
       </list>
     </option>
   </component>
@@ -209,23 +221,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_laboration2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_laboration2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_L02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_laboration2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_laboration2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_L02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1DV449_Laboration1" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/1DV449_L02/1DV449_L02" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Martin\Documents\GitHub\1DV449_laboration2\1DV449_L02\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Martin\Documents\GitHub\1DV449_laboration2\1DV449_L02" />
+      <recent name="C:\Users\Martin\Documents\GitHub\1DV449_laboration2\1DV449_L02\js" />
       <recent name="C:\Users\Martin\Documents\GitHub\1DV449_laboration2" />
       <recent name="C:\Users\Martin\Documents\GitHub\1DV449_laboration2\db" />
     </key>
@@ -247,6 +304,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2b5f7d70-1934-4b3c-8c80-4f615f344d75" name="Default" comment="" />
@@ -259,11 +333,12 @@
     <frame x="54" y="-8" width="1234" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922825" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -308,9 +383,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="32" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1292">
           <folding>
-            <marker date="1416848672854" expanded="true" signature="393:415" placeholder="SELECT * FRO..messages..." />
-            <marker date="1416848672854" expanded="true" signature="593:642" placeholder="SELECT * FRO..messages..." />
-            <marker date="1416848672854" expanded="true" signature="1462:1484" placeholder="SELECT * FRO..messages..." />
+            <marker date="1416998351337" expanded="true" signature="393:434" placeholder="SELECT * FRO..messages..." />
+            <marker date="1416998351337" expanded="true" signature="997:1019" placeholder="SELECT * FRO..messages..." />
           </folding>
         </state>
       </provider>
@@ -346,9 +420,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="23" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="1904">
           <folding>
-            <marker date="1416490885713" expanded="true" signature="1511:1549" placeholder="SELECT * FRO..users..." />
-            <marker date="1416490885713" expanded="true" signature="1517:1549" placeholder="UPDATE passw..." />
-            <marker date="1416490885713" expanded="true" signature="2119:2157" placeholder="SELECT * FRO..users..." />
+            <marker date="1417015428436" expanded="true" signature="1058:1096" placeholder="SELECT * FRO..users..." />
+            <marker date="1417015428436" expanded="true" signature="1064:1096" placeholder="UPDATE passw..." />
+            <marker date="1417015428436" expanded="true" signature="1666:1704" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
@@ -370,7 +444,9 @@
     <entry file="file://$PROJECT_DIR$/1DV449_L02/mess.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="2" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="3077">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -385,9 +461,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="12" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="646">
           <folding>
-            <marker date="1416848672854" expanded="true" signature="393:415" placeholder="SELECT * FRO..messages..." />
-            <marker date="1416848672854" expanded="true" signature="593:642" placeholder="SELECT * FRO..messages..." />
-            <marker date="1416848672854" expanded="true" signature="1462:1484" placeholder="SELECT * FRO..messages..." />
+            <marker date="1416998351337" expanded="true" signature="393:434" placeholder="SELECT * FRO..messages..." />
+            <marker date="1416998351337" expanded="true" signature="997:1019" placeholder="SELECT * FRO..messages..." />
           </folding>
         </state>
       </provider>
@@ -423,9 +498,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="45" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1904">
           <folding>
-            <marker date="1416490885713" expanded="true" signature="1511:1549" placeholder="SELECT * FRO..users..." />
-            <marker date="1416490885713" expanded="true" signature="1517:1549" placeholder="UPDATE passw..." />
-            <marker date="1416490885713" expanded="true" signature="2119:2157" placeholder="SELECT * FRO..users..." />
+            <marker date="1417015428436" expanded="true" signature="1058:1096" placeholder="SELECT * FRO..users..." />
+            <marker date="1417015428436" expanded="true" signature="1064:1096" placeholder="UPDATE passw..." />
+            <marker date="1417015428436" expanded="true" signature="1666:1704" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
@@ -440,7 +515,9 @@
     <entry file="file://$PROJECT_DIR$/1DV449_L02/mess.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="2" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="3077">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -456,16 +533,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.15588723" vertical-offset="94" max-vertical-offset="697" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rapport.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="65" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1DV449_L02/test/debug.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="30" selection-start="222" selection-end="222" vertical-scroll-proportion="0.12230216" vertical-offset="0" max-vertical-offset="556">
@@ -473,28 +540,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1DV449_L02/index.php">
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1DV449_L02/sec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="23" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-13.692307" vertical-offset="358" max-vertical-offset="1904">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.85413" vertical-offset="2193" max-vertical-offset="39542">
           <folding>
-            <marker date="1416490885713" expanded="true" signature="1511:1549" placeholder="SELECT * FRO..users..." />
-            <marker date="1416490885713" expanded="true" signature="1517:1549" placeholder="UPDATE passw..." />
-            <marker date="1416490885713" expanded="true" signature="2119:2157" placeholder="SELECT * FRO..users..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1DV449_L02/check.php">
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="442">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="166498">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="40" selection-start="454" selection-end="454" vertical-scroll-proportion="-11.769231" vertical-offset="51" max-vertical-offset="714">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/pic/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/pic/b.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/pic/delete.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/pic/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="30" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2618">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="-15.5" vertical-offset="56" max-vertical-offset="1105">
+          <folding>
+            <marker date="1416998351337" expanded="true" signature="393:434" placeholder="SELECT * FRO..messages..." />
+            <marker date="1416998351337" expanded="true" signature="997:1019" placeholder="SELECT * FRO..messages..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -508,35 +619,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1DV449_L02/functions.php">
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/MessageBoard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="586" selection-end="586" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="561">
+        <state line="164" column="27" selection-start="5676" selection-end="5676" vertical-scroll-proportion="0.0" vertical-offset="2389" max-vertical-offset="2958">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1DV449_L02/MessageBoard.js">
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="27" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2907">
+        <state line="14" column="32" selection-start="379" selection-end="379" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1DV449_L02/mess.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="0" selection-start="3575" selection-end="3575" vertical-scroll-proportion="-11.076923" vertical-offset="2517" max-vertical-offset="3094">
+        <state line="53" column="12" selection-start="2100" selection-end="2100" vertical-scroll-proportion="-14.192307" vertical-offset="532" max-vertical-offset="1088">
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="56" selection-start="617" selection-end="617" vertical-scroll-proportion="-12.230769" vertical-offset="22" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1DV449_L02/get.php">
+    <entry file="file://$PROJECT_DIR$/1DV449_L02/sec.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="136" selection-end="136" vertical-scroll-proportion="-0.2357019" vertical-offset="255" max-vertical-offset="1343">
+        <state line="16" column="0" selection-start="800" selection-end="800" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1564">
           <folding>
-            <marker date="1416848672854" expanded="true" signature="393:415" placeholder="SELECT * FRO..messages..." />
-            <marker date="1416848672854" expanded="true" signature="593:642" placeholder="SELECT * FRO..messages..." />
-            <marker date="1416848672854" expanded="true" signature="1462:1484" placeholder="SELECT * FRO..messages..." />
+            <marker date="1417015428436" expanded="true" signature="1058:1096" placeholder="SELECT * FRO..users..." />
+            <marker date="1417015428436" expanded="true" signature="1064:1096" placeholder="UPDATE passw..." />
+            <marker date="1417015428436" expanded="true" signature="1666:1704" placeholder="SELECT * FRO..users..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rapport.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="92" selection-start="7352" selection-end="7352" vertical-scroll-proportion="1.09375" vertical-offset="1292" max-vertical-offset="1989">
+          <folding />
         </state>
       </provider>
     </entry>

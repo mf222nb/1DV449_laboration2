@@ -6,6 +6,9 @@ var MessageBoard = {
 
     init:function(e)
     {
+        MessageBoard.getFirstMessages();
+        MessageBoard.getMessages();
+
         MessageBoard.textField = document.getElementById("inputText");
         MessageBoard.nameField = document.getElementById("inputName");
         MessageBoard.messageArea = document.getElementById("messagearea");
@@ -87,7 +90,7 @@ var MessageBoard = {
         $.ajax({
 			type: "GET",
 		  	url: "functions.php",
-		  	data: {function: "add", name: MessageBoard.nameField.value, message:MessageBoard.textField.value}
+		  	data: {function: "add", name: MessageBoard.nameField.value, message:MessageBoard.textField.value, token:$("#token").val()}
 		}).done(function(data) {
 		  //("Your message is saved! Reload the page for watching it");
 		});
